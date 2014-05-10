@@ -8,10 +8,10 @@ extern "C" void subtract_(int *, int *, int *);
 
 int main() {
 
-	int test1 = 112;
-	int test2 = 117;
-	int answer1 = 99;
-	int answer2 = -99;	
+	int test1 = 5;
+	int test2 = 7;
+	int answer1 = 0;
+	int answer2 = 0;	
 	
 	add_(&test1, &test2, &answer1);
 	subtract_(&test2, &test1, &answer2);

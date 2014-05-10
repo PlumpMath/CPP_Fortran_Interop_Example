@@ -6,11 +6,10 @@ SUBROUTINE ADD(one, two, answer)
 	! sets the value of answer to be the value of one and two
 	answer = one + two;
 
-END
+END SUBROUTINE ADD
 
 SUBROUTINE SUBTRACT(one, two, asnwer2)
 	! same as above
 	asnwer2 = one - two;
 
-END
-
+END SUBROUTINE SUBTRACT
